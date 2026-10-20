@@ -34,7 +34,7 @@ Then clone and install:
 ```sh
 git clone https://github.com/wildfrogy5/dotfiles.git
 cd dotfiles
-./install.sh
+sh install.sh
 ```
 
 The installer does not install packages, change your shell, alter XFCE panels, or enable services. It backs up existing managed config directories into `~/.config/dotfiles-backup/` before creating symlinks.
