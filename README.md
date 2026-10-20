@@ -17,14 +17,14 @@ Palette:
 - Picom: opaque windows, rounded corners, shadows
 - `install.sh`: creates symlinks and backs up existing targets before replacing them
 
-Rofi and Conky theme configs have intentionally been left out. Plank and XFCE panel settings are also not included yet: those are machine-specific and should be copied from a known-good setup rather than guessed. SpaceDark is an installed GTK theme, not a theme bundled in this repository.
+
 
 ## Install on Void
 
 Install the applications first if they are not already present:
 
 ```sh
-sudo xbps-install -S kitty picom
+sudo xbps-install -S kitty picom plank rofi
 ```
 
 Then clone and install:
@@ -42,3 +42,12 @@ The installer does not install packages, change your shell, alter XFCE panels, o
 Start Picom from your XFCE session/autostart if it is not already running.
 
 If you change hardware or display layout, review any future monitor-specific settings before reusing them on another machine.
+
+## theme rofi
+
+run the rofi themer
+```sh
+rofi-theme-selector
+```
+
+pick android_notification by Rasi
