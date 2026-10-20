@@ -31,7 +31,7 @@ install_config() {
 }
 
 mkdir -p "$CONFIG_HOME"
-for name in kitty rofi picom conky; do
+for name in kitty picom; do
     install_config "$name"
 done
 
